@@ -1,0 +1,1 @@
+# grffile legacy LaTeX package
