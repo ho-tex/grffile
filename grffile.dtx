@@ -29,8 +29,8 @@
 %    grffile-test1.tex.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/grffile.dtx
-%    CTAN:macros/latex/contrib/oberdiek/grffile.pdf
+%    CTAN:macros/latex/contrib/grffile/grffile.dtx
+%    CTAN:macros/latex/contrib/grffile/grffile.pdf
 %
 % Unpacking:
 %    (a) If grffile.ins is present:
@@ -59,10 +59,10 @@
 %       pdflatex grffile.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/grffile.sty
-%    TDS:doc/latex/oberdiek/grffile.pdf
-%    TDS:doc/latex/oberdiek/test/grffile-test1.tex
-%    TDS:source/latex/oberdiek/grffile.dtx
+%    TDS:tex/latex/grffile/grffile.sty
+%    TDS:doc/latex/grffile/grffile.pdf
+%    TDS:doc/latex/grffile/test/grffile-test1.tex
+%    TDS:source/latex/grffile/grffile.dtx
 %
 %<*ignore>
 \begingroup
@@ -122,14 +122,14 @@ and the derived files
 \generate{%
 %  \file{grffile.ins}{\from{grffile.dtx}{install}}%
 %  \file{grffile.drv}{\from{grffile.dtx}{driver}}%
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/grffile}%
   \file{grffile.sty}{\from{grffile.dtx}{new}}%
   \file{grffile-2017-06-30.sty}{\from{grffile.dtx}{package}}%
-%  \usedir{doc/latex/oberdiek/test}%
+%  \usedir{doc/latex/grffile/test}%
 %  \file{grffile-test1.tex}{\from{grffile.dtx}{test1}}%
   \nopreamble
   \nopostamble
-%  \usedir{source/latex/oberdiek/catalogue}%
+%  \usedir{source/latex/grffile/catalogue}%
 %  \file{grffile.xml}{\from{grffile.dtx}{catalogue}}%
 }
 
@@ -418,6 +418,7 @@ and the derived files
   [2019/11/03 v2.0 Extended file name support for graphics (legacy)]%
 \PackageInfo{grffile}{This package is an empty stub for compatibility}
 \RequirePackage{graphicx}
+%</new>
 %    \end{macrocode}
 % \subsection{Identification}
 %
@@ -1102,8 +1103,8 @@ showpage
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\url{http://ctan.org/pkg/grffile}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/grffile.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/grffile.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/grffile/grffile.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/grffile/grffile.pdf}] Documentation.
 % \end{description}
 %
 %
@@ -1112,7 +1113,7 @@ showpage
 % the packages are already unpacked and the documentation files
 % are generated. The files and directories obey the TDS standard.
 % \begin{description}
-% \item[\CTAN{install/macros/latex/contrib/oberdiek.tds.zip}]
+% \item[\CTAN{install/macros/latex/contrib/grffile.tds.zip}]
 % \end{description}
 % \emph{TDS} refers to the standard ``A Directory Structure
 % for \TeX\ Files'' (\CTAN{tds/tds.pdf}). Directories
@@ -1154,10 +1155,10 @@ showpage
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   grffile.sty & tex/latex/oberdiek/grffile.sty\\
-%   grffile.pdf & doc/latex/oberdiek/grffile.pdf\\
-%   test/grffile-test1.tex & doc/latex/oberdiek/test/grffile-test1.tex\\
-%   grffile.dtx & source/latex/oberdiek/grffile.dtx\\
+%   grffile.sty & tex/latex/grffile/grffile.sty\\
+%   grffile.pdf & doc/latex/grffile/grffile.pdf\\
+%   test/grffile-test1.tex & doc/latex/grffile/test/grffile-test1.tex\\
+%   grffile.dtx & source/latex/grffile/grffile.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
@@ -1307,11 +1308,11 @@ showpage
     bundle.
   </description>
   <documentation details='Package documentation'
-      href='ctan:/macros/latex/contrib/oberdiek/grffile.pdf'/>
-  <ctan file='true' path='/macros/latex/contrib/oberdiek/grffile.dtx'/>
+      href='ctan:/macros/latex/contrib/grffile/grffile.pdf'/>
+  <ctan file='true' path='/macros/latex/contrib/grffile/grffile.dtx'/>
   <miktex location='oberdiek'/>
   <texlive location='oberdiek'/>
-  <install path='/macros/latex/contrib/oberdiek/oberdiek.tds.zip'/>
+  <install path='/macros/latex/contrib/grffile/grffile.tds.zip'/>
 </entry>
 %</catalogue>
 %    \end{macrocode}
