@@ -3,7 +3,7 @@
 
 module = "grffile"
 
-
+unpackfiles={"grffile.dtx"}
 
 
 
