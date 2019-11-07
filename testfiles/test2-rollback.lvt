@@ -1,0 +1,13 @@
+\documentclass{article}
+\input regression-test
+\usepackage{grffile}[v1]
+\begin{document}
+
+\sbox0{\includegraphics{example-image}}
+
+\START
+
+\showthe\wd0
+
+\END
+
