@@ -15,4 +15,4 @@ to use the original version of this package (grffile-2017-06-30.sty).
 
 tex grffile.dtx
 
-will extract graphics.sty and grffile-2017-06-30.sty
+will extract grffile.sty and grffile-2017-06-30.sty
