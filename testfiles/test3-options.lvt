@@ -1,0 +1,6 @@
+\documentclass{article}
+\input regression-test
+\START
+\usepackage[multidot,babel]{grffile}
+\END
+

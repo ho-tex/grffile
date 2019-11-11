@@ -136,7 +136,7 @@ and the derived files
 \Msg{*}
 \Msg{*     grffile.sty}
 \Msg{*}
-\Msg{* To produce the documentation run the file `grffile.drv'}
+\Msg{* To produce the documentation run the file `grffile.dtx'}
 \Msg{* through LaTeX.}
 \Msg{*}
 \Msg{* Happy TeXing!}
@@ -410,10 +410,12 @@ and the derived files
 %    \begin{macrocode}
 %<*new>
 \DeclareRelease{v1}{2017-06-30}{grffile-2017-06-30.sty}
-\DeclareCurrentRelease{}{2019-11-03}
+\DeclareCurrentRelease{}{2019-11-11}
 \ProvidesPackage{grffile}%
-  [2019/11/03 v2.0 Extended file name support for graphics (legacy)]%
+  [2019/11/11 v2.1 Extended file name support for graphics (legacy)]%
 \PackageInfo{grffile}{This package is an empty stub for compatibility}
+\DeclareOption*{}
+\ProcessOptions
 \RequirePackage{graphicx}
 %</new>
 %    \end{macrocode}
