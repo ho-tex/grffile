@@ -1029,52 +1029,6 @@ and the derived files
 %    \begin{macrocode}
 %</package>
 %    \end{macrocode}
-%
-% \section{Test}
-%
-% \subsection{Multidot with default rule}
-%
-%    \begin{macrocode}
-%<*test1>
-\NeedsTeXFormat{LaTeX2e}
-\documentclass{article}
-\usepackage{filecontents}
-% file grffile-test.mp:
-% beginfig(1);
-%   draw fullcircle scaled 2cm withpen pencircle scaled 2mm;
-% endfig;
-% end
-\begin{filecontents*}{grffile-test.1}
-%!PS
-%%BoundingBox: -32 -32 32 32
-%%Creator: MetaPost
-%%CreationDate: 2004.06.16:1257
-%%Pages: 1
-%%EndProlog
-%%Page: 1 1
- 0 5.66928 dtransform truncate idtransform setlinewidth pop [] 0 setdash
- 1 setlinejoin 10 setmiterlimit
-newpath 28.34645 0 moveto
-28.34645 7.51828 25.35938 14.72774 20.04356 20.04356 curveto
-14.72774 25.35938 7.51828 28.34645 0 28.34645 curveto
--7.51828 28.34645 -14.72774 25.35938 -20.04356 20.04356 curveto
--25.35938 14.72774 -28.34645 7.51828 -28.34645 0 curveto
--28.34645 -7.51828 -25.35938 -14.72774 -20.04356 -20.04356 curveto
--14.72774 -25.35938 -7.51828 -28.34645 0 -28.34645 curveto
-7.51828 -28.34645 14.72774 -25.35938 20.04356 -20.04356 curveto
-25.35938 -14.72774 28.34645 -7.51828 28.34645 0 curveto closepath stroke
-showpage
-%%EOF
-\end{filecontents*}
-\usepackage{graphicx}
-\usepackage[multidot]{grffile}[2008/10/13]
-\DeclareGraphicsRule{*}{mps}{*}{} % for pdflatex
-\begin{document}
-\includegraphics{grffile-test.1}
-\end{document}
-%</test1>
-%    \end{macrocode}
-%
 % \section{Installation}
 %
 % \subsection{Download}
