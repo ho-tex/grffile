@@ -8,11 +8,11 @@ This extended the original LaTeX graphics code to support spaces and
 multiple dots in filenames.
 
 If required use
-
+```tex
 \usepackage{grffile}[=v1]
-
+```
 to use the original version of this package (grffile-2017-06-30.sty).
-
+```
 tex grffile.dtx
-
+```
 will extract grffile.sty and grffile-2017-06-30.sty
